@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-gray-100;
+    scroll-behavior: smooth; /* Smooth scrolling on the whole document */
+    scroll-padding-top: 175px; /* When click anchor link, scroll this amount above it. */
+  }
+  /* Remove smooth scrolling for people with 'prefers-reduced-motion: reduce' */
+  @media screen and (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+  body {
+    @apply text-gray-600;
+    @apply font-body;
+  }
+}
