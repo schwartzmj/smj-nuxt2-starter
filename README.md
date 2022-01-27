@@ -8,7 +8,7 @@
 - @nuxt/image
 - Typescript ready
 - Prettier & ESLint
-- Tailwind CSS 3 w/ eslint-config-prettier to auto-sort Tailwind classes in your templates
+- Tailwind CSS 3 w/ prettier-plugin-tailwindcss to auto-sort Tailwind classes in your templates
 - A Toolbar component that displays your current Tailwind breakpoint
 - A few starter pages and components:
   - Primary Nav bar
