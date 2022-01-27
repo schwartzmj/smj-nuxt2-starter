@@ -6,6 +6,15 @@
 
 - @nuxt/google-fonts
 - @nuxt/image
+- Typescript ready
+- Prettier & ESLint
+- Tailwind CSS 3 w/ eslint-config-prettier to auto-sort Tailwind classes in your templates
+- A Toolbar component that displays your current Tailwind breakpoint
+- A few starter pages and components:
+  - Primary Nav bar
+  - Blog post pages with dynamic slugs
+  - Previous & Next buttons for posts / content
+  - Table of Contents for posts / content
 - ...
 
 ## Build Setup
