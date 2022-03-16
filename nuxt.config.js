@@ -1,3 +1,5 @@
+import getRoutes from './utils/getRoutes'
+
 export default {
   // Used in components/dev/Toolbar to only render that component if we're in development mode.
   env: {
@@ -40,6 +42,9 @@ export default {
   sitemap: {
     // https://sitemap.nuxtjs.org/guide/configuration
     hostname: 'https://nuxt2-starter.schwartzmj.com',
+    routes() {
+      return getRoutes()
+    },
   },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
