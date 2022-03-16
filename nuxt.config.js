@@ -39,6 +39,7 @@ export default {
 
   sitemap: {
     // https://sitemap.nuxtjs.org/guide/configuration
+    hostname: 'https://nuxt2-starter.schwartzmj.com',
   },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
